@@ -1,41 +1,40 @@
+# Taskify - Task Management API
 
-# Taskify - API de Gestion des Tâches
+Taskify is a RESTful API developed with Laravel for efficient management of individual tasks. This API provides secure authentication, task management features, and comprehensive documentation for easy use by developers.
 
-Taskify est une API RESTful développée avec Laravel pour la gestion efficace des tâches individuelles. Cette API offre des fonctionnalités d'authentification sécurisée, de gestion des tâches et de documentation complète pour une utilisation aisée par les développeurs.
+## Features
 
-## Fonctionnalités
-
-- **Authentification avec Laravel Sanctum** : Sécurisez l'accès à l'API avec Laravel Sanctum pour une authentification fiable des utilisateurs.
-- **Gestion des Tâches** :
-  - Créer, modifier et supprimer des tâches individuelles.
-  - Marquer une tâche comme complétée ou incomplète.
-- **Politiques d'Accès** : Limitez l'accès aux tâches à chaque utilisateur pour assurer la confidentialité des données.
-- **Tests Unitaires** : Des tests unitaires complets garantissent la fiabilité et la stabilité de l'API.
-- **Tests sur Postman** : Réalisez des tests d'intégration sur Postman pour valider le fonctionnement de l'API dans différents scénarios.
-- **Documentation de l'API** : Une documentation claire et complète de l'API, décrivant chaque endpoint, ses paramètres et ses réponses attendues.
+- **Authentication with Laravel Sanctum**: Secure API access with Laravel Sanctum for reliable user authentication.
+- **Task Management**:
+  - Create, modify, and delete individual tasks.
+  - Mark a task as completed or incomplete.
+- **Access Policies**: Restrict access to tasks for each user to ensure data confidentiality.
+- **Unit Testing**: Comprehensive unit tests ensure the reliability and stability of the API.
+- **Postman Testing**: Perform integration tests on Postman to validate the API's functionality in various scenarios.
+- **API Documentation**: Clear and comprehensive documentation of the API, describing each endpoint, its parameters, and expected responses.
 
 ## Installation
 
-1. Clonez ce référentiel sur votre machine locale.
-2. Installez les dépendances PHP avec Composer :
+1. Clone this repository to your local machine.
+2. Install PHP dependencies with Composer:
 
    ```bash
    composer install
    ```
 
-3. Copiez le fichier `.env.example` pour créer un fichier `.env` :
+3. Copy the `.env.example` file to create a `.env` file:
 
    ```bash
    cp .env.example .env
    ```
 
-4. Générez une clé d'application Laravel :
+4. Generate a Laravel application key:
 
    ```bash
    php artisan key:generate
    ```
 
-5. Configurez votre base de données dans le fichier `.env` :
+5. Configure your database in the `.env` file:
 
    ```plaintext
    DB_CONNECTION=mysql
@@ -46,20 +45,20 @@ Taskify est une API RESTful développée avec Laravel pour la gestion efficace d
    DB_PASSWORD=your_database_password
    ```
 
-6. Exécutez les migrations pour créer les tables de base de données :
+6. Run migrations to create the database tables:
 
    ```bash
    php artisan migrate
    ```
 
-7. Lancez le serveur de développement :
+7. Start the development server:
 
    ```bash
    php artisan serve
    ```
 
-8. L'API sera accessible à l'adresse `http://localhost:8000`.
+8. The API will be accessible at `http://localhost:8000`.
 
-## Utilisation
+## Usage
 
-Consultez la documentation de l'API pour découvrir les endpoints disponibles et leurs fonctionnalités.
+Refer to the API documentation to discover available endpoints and their functionalities.
