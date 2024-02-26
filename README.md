@@ -1,6 +1,3 @@
-Voici un exemple de fichier README complet pour votre référentiel GitHub :
-
----
 
 # Taskify - API de Gestion des Tâches
 
