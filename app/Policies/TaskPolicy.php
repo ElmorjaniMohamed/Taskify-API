@@ -8,7 +8,7 @@ use Illuminate\Auth\Access\Response;
 
 class TaskPolicy
 {
-    
+
     public function viewAny(User $user): bool
     {
         return true;
@@ -22,7 +22,7 @@ class TaskPolicy
     public function create(User $user): bool
     {
 
-        // return true;
+        return true;
     }
 
     public function update(User $user, Task $task): bool
