@@ -57,8 +57,4 @@ Taskify is a RESTful API developed with Laravel for efficient management of indi
    php artisan serve
    ```
 
-8. The API will be accessible at `http://localhost:8000`.
 
-## Usage
-
-Refer to the API documentation to discover available endpoints and their functionalities.
