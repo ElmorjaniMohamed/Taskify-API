@@ -42,7 +42,6 @@ class RegisterController extends Controller
     {
        $user = User::create($request->getData());
 
-
        return response()->json([
         'user' => $user,
         'token' => $user->createToken('laravel_api_token')->plainTextToken
